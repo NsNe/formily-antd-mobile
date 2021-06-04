@@ -9,3 +9,7 @@ features:
 
 footer:
 ---
+
+## 安装
+
+npm install formily-antd-mobile
