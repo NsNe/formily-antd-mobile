@@ -1,0 +1,28 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+.idea
+
+# dependencies
+/node_modules
+/npm-debug.log*
+/yarn-error.log
+
+# production
+/dist
+/lib
+/es
+/public
+
+
+# misc
+.DS_Store
+.docz
+
+# umi
+.umi
+.umi-production
+.umi-test
+.env.local
+
+# docs-dist
+docs-dist

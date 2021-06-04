@@ -1,0 +1,32 @@
+@import '../style/var.less';
+
+.formily-pickeritem {
+  padding: 0;
+  &__clear {
+    color: @theme-color;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .am-list-line {
+    justify-content: space-between;
+    padding: 0;
+    .am-list-extra {
+      color: #374152;
+      text-align: left;
+      flex-basis: auto;
+      display: flex;
+      align-items: center;
+    }
+    .am-list-arrow {
+      background-image: url(./arrow_gray@2x.png);
+      width: 24px;
+      height: 24px;
+    }
+    .am-list-right {
+      flex-basis: auto;
+      display: flex;
+      align-items: center;
+    }
+  }
+}

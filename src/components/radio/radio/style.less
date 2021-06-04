@@ -1,0 +1,39 @@
+.formily-radio {
+  display: block;
+  margin-right: 30px;
+  color: #374152;
+  font-size: 16px;
+
+  .am-radio {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    vertical-align: middle;
+
+    &.am-radio-checked {
+      .am-radio-inner {
+        border: 5px solid #07f;
+        border-radius: 100%;
+      }
+    }
+
+    .am-radio-inner {
+      box-sizing: border-box;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #e9ebf0;
+      border-radius: 100%;
+
+      &::after {
+        content: none;
+      }
+    }
+  }
+
+  .am-radio-label {
+    display: inline-block;
+    flex: 1;
+    vertical-align: middle;
+  }
+}
