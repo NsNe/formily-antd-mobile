@@ -21,7 +21,14 @@ export default defineConfig({
       },
       'lodash'
     ],
-  ]
+  ],
+  themeConfig: {
+    hd: {
+      rules: [
+        { minWidth: 415, maxWidth: 750, mode: 'vw', options: [100, 750] },
+      ],
+    }
+  },
 
   // more config: https://d.umijs.org/config
 });
