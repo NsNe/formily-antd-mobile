@@ -1,15 +1,15 @@
-import { Input } from './input';
-import { Radio } from './radio';
+import { Input } from './Input';
+import { Radio } from './Radio';
 import { Form, FormItem } from './Form';
-import { Textarea } from './textarea';
-import { Checkbox } from './checkbox';
-import { DatePicker } from './datepicker';
-import { NumPicker } from './numpicker';
-import { MonthPicker } from './monthpicker';
-import { FormBlock } from './block';
-import { FormCard } from './card';
-import { CheckboxOther } from './checkbox-other';
-import { NumpickerRadioOther } from './numpicker-radio-other';
+import { Textarea } from './Textarea';
+import { Checkbox } from './Checkbox';
+import { DatePicker } from './DatePicker';
+import { NumPicker } from './NumPicker';
+import { MonthPicker } from './MonthPicker';
+import { FormBlock } from './Block';
+import { FormCard } from './Card';
+import { CheckboxOther } from './CheckboxOther';
+import { NumpickerRadioOther } from './NumpickerRadioOther';
 import 'antd-mobile/dist/antd-mobile.css';
 
 import { setup } from './component';
