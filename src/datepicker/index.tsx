@@ -1,13 +1,10 @@
 import { DatePicker as AntdDatePicker, List } from 'antd-mobile';
 import React from 'react';
 import {
-  connect,
-  registerFormField,
   ISchemaFieldComponentProps
 } from '@formily/react-schema-renderer';
 import { getComponentProps, getDisabled } from '../util';
 import _ from 'lodash';
-import './style.less';
 import PickerItem from '../PickerItem';
 
 
