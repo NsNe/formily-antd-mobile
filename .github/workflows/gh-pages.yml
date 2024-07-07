@@ -7,10 +7,10 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: yarn install
+      - run: npm install
       - run: npm run docs:build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
