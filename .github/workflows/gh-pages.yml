@@ -11,9 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: install dependencies
-      - run: npm install
+        run: npm install
       - name: build
-      - run: npm run docs:build
+        run: npm run docs:build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
