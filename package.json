@@ -1,6 +1,7 @@
 {
   "name": "formily-antd-mobile",
   "version": "0.0.1",
+  "description": "一个基于 formily v1 和 antd-mobile 构建的移动端 schema 表单",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",

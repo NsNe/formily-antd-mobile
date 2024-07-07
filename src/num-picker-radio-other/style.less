@@ -1,0 +1,40 @@
+@import '../style/var.less';
+.formily-formitem__control__numpicker-radio-other {
+  .checkboxOtherInput {
+    position: absolute;
+    min-height: 32px;
+    height: 32px !important;
+    bottom: 14px;
+    left: 64px;
+    padding: 0 !important;
+    .am-input-control input {
+      border-bottom: 1px solid #222b38;
+      font-size: 16px;
+      width: 100px;
+      color: @secondary-text-color;
+      -webkit-appearance: none;
+      border-radius: 0;
+    }
+    &.active {
+      .am-input-control input {
+        border-color: @theme-color;
+        color: @theme-color;
+      }
+    }
+  }
+
+  .formily-numpicker__listItem {
+    padding: 0;
+    .am-list-line {
+      padding: 0;
+      line-height: 60px;
+      height: 60px;
+      border-bottom: 1px solid @border-color;
+      .am-list-arrow {
+        // background-image: url(../../../img/arrow_gray@2x.png);
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}

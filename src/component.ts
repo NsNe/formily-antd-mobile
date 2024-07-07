@@ -1,18 +1,18 @@
 import { registerFormFields, registerFormComponent, registerFormItemComponent } from '@formily/react-schema-renderer';
 
-import { Input } from './Input';
-import { Radio } from './Radio';
-import { Form, FormItem } from './Form';
-import { Textarea } from './Textarea';
-import { Checkbox } from './Checkbox';
-import { DatePicker } from './DatePicker';
-import { NumPicker } from './NumPicker';
-import { MonthPicker } from './MonthPicker';
-import { FormBlock } from './Block';
-import { FormCard } from './Card';
-import { CheckboxOther } from './CheckboxOther';
-import { NumpickerRadioOther } from './NumpickerRadioOther';
-import { Upload } from './Upload';
+import { Input } from './input';
+import { Radio } from './radio';
+import { Form, FormItem } from './form';
+import { Textarea } from './textarea';
+import { Checkbox } from './checkbox';
+import { DatePicker } from './date-picker';
+import { NumPicker } from './num-picker';
+import { MonthPicker } from './moth-picker';
+import { FormBlock } from './block';
+import { FormCard } from './card';
+import { CheckboxOther } from './checkbox-other';
+import { NumpickerRadioOther } from './num-picker-radio-other';
+import { Upload } from './upload';
 
 export const setup = () => {
   registerFormFields(
